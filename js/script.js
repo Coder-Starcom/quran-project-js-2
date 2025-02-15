@@ -4,6 +4,7 @@ import QuranController from "./controller.js"; // Ensure it's imported
 
 document.addEventListener("DOMContentLoaded", () => {
   QuranView.init();
+  QuranController.init(QuranView);
 
   document
     .getElementById("prev")

@@ -1,5 +1,3 @@
-import QuranController from "./controller.js"; // Import the controller
-
 const QuranView = {
   init() {
     this.pageContent = document.getElementById("page-content");
