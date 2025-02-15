@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  QuranView.init(QuranController);
-  QuranController.init(QuranView);
+  QuranView.init();
 
   document
     .getElementById("prev")
