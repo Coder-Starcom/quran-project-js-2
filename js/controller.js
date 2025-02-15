@@ -1,5 +1,4 @@
 import QuranModel from "./model.js";
-import QuranView from "./view.js";
 
 const QuranController = {
   async getQuranPageData(page) {
