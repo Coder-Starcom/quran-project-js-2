@@ -3,6 +3,7 @@
 ## Overview
 Quran Explorer is a web-based application that allows users to navigate through the pages of the Quran dynamically. The application follows the **MVC (Model-View-Controller) architecture** to separate concerns efficiently.
 
+Demo: https://quran-js-project-v2.netlify.app/
 ## Features
 - **Browse Quran Pages**: Navigate between pages smoothly.
 - **Surah Details**: Displays details like name, translation, revelation type, total ayahs, Juz, and Hizb.
