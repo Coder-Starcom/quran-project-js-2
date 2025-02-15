@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  view.init();
+  QuranView.init();
 
   document
     .getElementById("prev")
