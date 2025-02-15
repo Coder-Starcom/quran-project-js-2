@@ -1,5 +1,3 @@
-import QuranModel from "./model.js";
-
 const QuranController = {
   view: null,
 
@@ -53,5 +51,3 @@ const QuranController = {
     return content;
   },
 };
-
-export default QuranController; // Ensure export

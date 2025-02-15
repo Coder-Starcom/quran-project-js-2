@@ -1,7 +1,3 @@
-import QuranModel from "./model.js";
-import QuranView from "./view.js"; // Correct the path if needed
-import QuranController from "./controller.js"; // Ensure it's imported
-
 document.addEventListener("DOMContentLoaded", () => {
   QuranView.init(QuranController);
   QuranController.init(QuranView);
