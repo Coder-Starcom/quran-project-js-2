@@ -1,4 +1,9 @@
 const QuranController = {
+  view: null, // Store reference to QuranView
+
+  init(viewInstance) {
+    this.view = viewInstance; // Initialize the view
+  },
   async getQuranPageData(page) {
     if (!this.view) {
       console.error("QuranView is not initialized in Controller!");
