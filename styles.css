@@ -80,17 +80,36 @@ button:disabled {
   display: none;
 }
 
+/* Make the table responsive */
 table {
-  margin: auto;
-  text-align: center;
-  padding: 10px;
+  width: 100%;
+  /* border-collapse: collapse; */
 }
-td {
+
+/* Ensure table content wraps properly */
+td,
+th {
+  padding: 8px;
+  text-align: center;
   border-left: #ffcc00 solid 1.5px;
   border-right: #ffcc00 solid 1.5px;
   background-color: #ffcc0077;
-  padding: 10px;
-  font-size: 20px;
+
+  font-size: 16px; /* Default font size */
+}
+
+/* Responsive adjustments for small screens */
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 14px; /* Reduce font size */
+  }
+
+  td,
+  th {
+    padding: 5px; /* Reduce padding */
+  }
+
+  /* Allow table to scroll if needed */
 }
 
 span {
