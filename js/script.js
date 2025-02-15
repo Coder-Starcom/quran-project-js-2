@@ -1,3 +1,5 @@
+import QuranView from "./view.js"; // Correct the path if needed
+
 document.addEventListener("DOMContentLoaded", () => {
   QuranView.init();
 

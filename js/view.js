@@ -59,3 +59,5 @@ const QuranView = {
     }
   },
 };
+
+export default QuranView;
