@@ -32,3 +32,5 @@ const QuranModel = {
     }
   },
 };
+
+export default QuranModel;

@@ -1,3 +1,6 @@
+import QuranModel from "./model.js";
+import QuranView from "./view.js";
+
 const QuranController = {
   async getQuranPageData(page) {
     const ayahs = await QuranModel.fetchPageData(page);
@@ -40,3 +43,5 @@ const QuranController = {
     return content;
   },
 };
+
+export default QuranController; // Ensure export
