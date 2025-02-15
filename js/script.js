@@ -3,7 +3,7 @@ import QuranModel from "./model.js";
 import QuranController from "./controller.js"; // Ensure it's imported
 
 document.addEventListener("DOMContentLoaded", () => {
-  QuranView.init();
+  QuranView.init(QuranController);
   QuranController.init(QuranView);
 
   document

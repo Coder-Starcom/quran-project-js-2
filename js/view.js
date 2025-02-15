@@ -1,5 +1,8 @@
 const QuranView = {
-  init() {
+  controller: null,
+
+  init(controller) {
+    this.controller = controller;
     this.pageContent = document.getElementById("page-content");
     this.surahDetails = document.getElementById("surah-details");
 
